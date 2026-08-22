@@ -22,16 +22,12 @@
 项目涵盖了**数据探索、可视化分析、机器学习建模、交互式预测**等完整的数据分析流程，
 展示了从原始数据到预测模型的全链路能力，是医学信息工程专业学生体现"医学+数据"交叉能力的优质项目。
 
-> 💡 **求职亮点**：这个项目既展示了你的Python数据分析能力（Pandas/可视化），
-> 又体现了机器学习建模能力（逻辑回归/评估指标），
-> 还展示了Web应用开发能力（Streamlit），
-> 更重要的是**紧扣医学专业背景**，在秋招中非常有辨识度！
 
 ## 🛠️ 技术栈
 
 | 类别 | 技术 | 版本 | 用途 |
 |------|------|------|------|
-| 编程语言 | Python | 3.9+ | 开发语言 |
+| 编程语言 | Python | 3.11.9 | 开发语言 |
 | Web框架 | Streamlit | 1.31+ | 快速构建数据应用 |
 | 数据处理 | Pandas | 2.0+ | 数据清洗与分析 |
 | 数值计算 | NumPy | 1.24+ | 数值计算 |
@@ -80,11 +76,11 @@
 
 ## 🖼️ 效果截图
 
-> 📌 **提示**：运行项目后，请将以下占位图替换为你自己的截图！
 
 ### 首页 - 数据集介绍
 <!-- ![数据集介绍](./screenshots/intro.png) -->
-![数据集介绍占位图](https://via.placeholder.com/900x500?text=Dataset+Introduction)
+<img width="2546" height="1320" alt="2f5429f2e34f721beb0896f298f1fe16" src="https://github.com/user-attachments/assets/946f575a-c020-4df7-b1a8-599248aa0f10" />
+
 
 ### 数据概览
 <!-- ![数据概览](./screenshots/overview.png) -->
@@ -92,7 +88,10 @@
 
 ### 数据可视化
 <!-- ![数据可视化](./screenshots/visualization.png) -->
-![数据可视化占位图](https://via.placeholder.com/900x500?text=Data+Visualization)
+<img width="2508" height="1312" alt="da1a70dbc74450061be28793a478bb53" src="https://github.com/user-attachments/assets/288c61ee-1ecb-438f-b753-18f48befdb3a" />
+<img width="1513" height="1300" alt="1047d5216ba78383d0218ede24b31d5a" src="https://github.com/user-attachments/assets/4f82e160-fb50-40d5-b4c1-ad97d133369d" />
+
+
 
 ### 预测模型
 <!-- ![预测模型](./screenshots/model.png) -->
@@ -100,7 +99,7 @@
 
 ### 风险计算器
 <!-- ![风险计算器](./screenshots/calculator.png) -->
-![风险计算器占位图](https://via.placeholder.com/900x500?text=Risk+Calculator)
+<img width="2039" height="1280" alt="5361b23e6cef19dd5ebddda67be84a0a" src="https://github.com/user-attachments/assets/62e8e3bf-8f29-4044-9513-4f49b6d7e637" />
 
 ## 📚 数据集说明
 
@@ -215,7 +214,7 @@ medical-data-analysis/
 ## 💡 项目亮点
 
 1. **🧬 医学专业结合**
-   - 选用经典糖尿病数据集，紧扣医学信息工程专业
+   - 选用经典糖尿病数据集
    - 图表分析附带医学意义解读
    - 风险计算器有分级提示和健康建议
    - 评估指标解释包含临床意义（灵敏度/特异度）
@@ -280,6 +279,6 @@ MIT License
     如果这个项目对你有帮助，欢迎点个 ⭐ Star 支持一下！
   </p>
   <p>
-    <sub>🏥 Made with ❤️ by 医学信息工程专业学生</sub>
+    <sub>lee</sub>
   </p>
 </div>
