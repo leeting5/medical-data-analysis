@@ -4,7 +4,7 @@
 基于 Pima Indians Diabetes Dataset 的糖尿病数据分析与预测
 
 技术栈：Streamlit + Pandas + Matplotlib/Seaborn + Scikit-learn
-作者：医学信息工程专业学生
+作者：leeting
 """
 
 import streamlit as st
@@ -155,11 +155,9 @@ def sidebar():
 
         st.markdown("---")
         st.markdown("### 关于项目")
-        st.info("""
-        **医学信息工程课程项目**
-        
+        st.info(""" 
         技术栈：
-        - Python 3.9+
+        - Python 3.11.9
         - Streamlit
         - Pandas
         - Scikit-learn
@@ -167,7 +165,7 @@ def sidebar():
         """)
 
         st.markdown("---")
-        st.caption("Made with ❤️ by 医学信息工程专业")
+        st.caption("leeting")
 
     return page
 
@@ -185,8 +183,6 @@ def page_intro(df):
     数据集包含了 **768 名** 至少 21 岁的 Pima 印第安女性患者的医学数据，
     目标是基于各项诊断指标预测患者是否患有糖尿病。
 
-    > 该数据集是机器学习入门和医学数据分析的经典案例，
-    > 非常适合医学信息工程专业的学生展示数据分析能力！
     """)
 
     st.subheader("📋 数据来源")
